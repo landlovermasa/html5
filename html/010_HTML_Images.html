@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>010 HTML Images</title>
+    <style>
+        img {
+            /*width:250px;
+            height:250px;*/
+            border:dashed;
+            border-color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center" >010 HTML <mark>Images</mark></h1>
+    <!--<img src="img/pulpitrock.jpg" alt="Alternate image" style="width:500px;height:500px;" />-->
+
+    <img src="img/pulpitrock.jpg" alt="Alternate image" />
+
+    <br />
+    <p>
+        <img src="img/smiley.gif" alt="Smiley face">
+        The image without float.
+    </p>
+    <br />
+    <p>
+        <img src="img/smiley.gif" alt="Smiley face" style="float:right;">
+        The image will float to the right of the text.
+    </p>
+
+    <p>
+        <img src="img/smiley.gif" alt="Smiley face" style="float:left;">
+        The image will float to the left of the text.
+    </p>
+
+    <pre style="background-image:url('img/pulpitrock.jpg');">
+        masa
+
+        masa
+        jlkjlkfv
+
+        dsfkkjfh
+        pre test 
+
+        sdjasdkljsd 
+        kfsh fh
+
+        dsfjlkfjkjdsfl
+
+        ksjfhkshkdfhkshfuifhhfisdfui
+
+</pre>
+    
+<picture>
+    <source media="(min-width:800px)" srcset="img/img_orange_flowers.jpg" />
+    <source media="(min-width:500px)" srcset="img/img_white_flower.jpg" />
+    
+    <img src="img/img_pink_flowers.jpg" alt="pink flowers" />
+    
+</picture>    
+    <p>Resize the browser to see different versions of the picture loading at different viewport sizes.</p>
+</body>
+</html>

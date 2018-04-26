@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>011 HTML Tables</title>
+    <style>
+        table {
+                border:5px dotted blue;
+                border-collapse: collapse;
+        }
+        
+        th {
+                border:2px solid yellow;
+                border-collapse: collapse;
+                padding:10px;
+        }
+        
+        td {
+                border:3px double red;
+                border-collapse: collapse;
+                padding:10px;
+                text-align:center;
+        }
+        table caption {
+            border:2px solid;
+            color:aqua;
+            
+        }
+        
+        table#tbl_01 tr:nth-child(even){
+            background-color:silver;
+        }
+        table#tbl_01 tr:nth-child(odd) {
+            background-color:pink;
+        }
+
+        table#tbl_02 td:nth-child(even) {
+            background-color:lightgreen;
+        }
+        table#tbl_02 td:nth-child(odd) {
+            background-color:lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+    
+    <br />
+    <br />
+    <br />
+
+    <table style="width:100%">
+        <caption>Agenda</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+    </table>
+
+
+    <table id="tbl_01" style="width:100%">
+        <caption>Agenda</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+    </table>
+
+
+    <table id="tbl_02" style="width:100%">
+        <caption>Agenda</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+        <tr>
+            <td>Masa1</td>
+            <td>01012345678</td>
+            <td>01212345678</td>
+        </tr>
+        <tr>
+            <td>Masa2</td>
+            <td>01112345678</td>
+            <td>01512345678</td>
+        </tr>
+    </table>
+</body>
+</html>
