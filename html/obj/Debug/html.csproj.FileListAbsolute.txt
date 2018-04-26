@@ -1,0 +1,6 @@
+G:\Library of Projects\HTML\html_5\Solution_html_5\html\bin\html.dll.config
+G:\Library of Projects\HTML\html_5\Solution_html_5\html\bin\html.dll
+G:\Library of Projects\HTML\html_5\Solution_html_5\html\bin\html.pdb
+G:\Library of Projects\HTML\html_5\Solution_html_5\html\obj\Debug\html.csprojResolveAssemblyReference.cache
+G:\Library of Projects\HTML\html_5\Solution_html_5\html\obj\Debug\html.dll
+G:\Library of Projects\HTML\html_5\Solution_html_5\html\obj\Debug\html.pdb

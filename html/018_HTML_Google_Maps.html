@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+    <title>018 HTML Google Maps</title>
+</head>
+<body>
+    <h1 style="text-align:center;color:silver;">018 HTML Google <mark>Maps</mark> </h1>
+
+    <div id="map" style="width:400px;height:400px;border: 2px solid blue;">
+
+    </div>
+    <script>
+    function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.12),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+    </script>
+</body>
+</html>

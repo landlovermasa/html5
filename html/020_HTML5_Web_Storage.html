@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>020 HTML5 Web Storage</title>
+    <script>
+    function clickCounter() {
+        if (typeof (Storage) !== "undefined") {
+            if (sessionStorage.clickcount) {
+                sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+                localStorage.setItem("today_now", new Date().toLocaleString());
+            }
+            else {
+                sessionStorage.clickcount = 1;
+                localStorage.setItem("today_now", new Date().toLocaleString());
+
+            }
+
+            document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+            document.getElementById("result2").innerHTML = localStorage.getItem("today_now");
+
+        }
+        else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+        }
+    }
+    </script>
+
+</head>
+<body>
+    <h1 style="text-align:center;color:silver;">020 HTML5 Web <mark>Storage</mark> </h1>
+
+    <button onclick="clickCounter()" type="button">Click me!</button>
+    
+    <div id="result"></div>
+    <div id="result2"></div>
+</body>
+</html>
