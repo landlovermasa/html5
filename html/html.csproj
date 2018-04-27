@@ -79,6 +79,11 @@
     <Content Include="018_HTML_Google_Maps.html" />
     <Content Include="019_HTML_YouTube_Videos.html" />
     <Content Include="020_HTML5_Web_Storage.html" />
+    <Content Include="021_CSS_Backgrounds.html" />
+    <Content Include="022_CSS_Margins.html" />
+    <Content Include="023_CSS_Padding.html" />
+    <Content Include="024_CSS_Text.html" />
+    <Content Include="025_CSS_Icons.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
